@@ -2,7 +2,7 @@ FROM openjdk:22-jdk-slim
 
 WORKDIR /app
 
-COPY target/goalbased-be-0.0.1-SNAPSHOT.jar app.jar
+COPY target/ReactiveDemo1-0.0.1-SNAPSHOT.jar app.jar
 
 EXPOSE 8080
 

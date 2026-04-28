@@ -27,9 +27,5 @@ public class OOPServiceImpl implements OOPService{
     public void login(int phone, String pass) {
 
     }
-
-    @Override
-    public void login(String user, String pass) {
-
-    }
+    
 }
