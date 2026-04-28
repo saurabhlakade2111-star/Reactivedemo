@@ -17,8 +17,4 @@ public class OOPController {
        return oopService.UPI();
     }
 
-    public void login()
-    {
-
-    }
 }

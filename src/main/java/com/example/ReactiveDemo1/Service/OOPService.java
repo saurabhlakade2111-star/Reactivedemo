@@ -7,7 +7,4 @@ public interface OOPService {
 
     public Payment UPI();
 
-    public void login(String user,String pass);
-
-    public void login(int phone,String pass);
 }

@@ -7,25 +7,13 @@ import org.springframework.stereotype.Service;
 public class OOPServiceImpl implements OOPService{
     @Override
     public Payment UPI() {
-        return Payment.builder().name("ganesh")
-                .accNo(112)
-                .receiverAcc(458)
-                .ammount(1000)
-                .status("done")
-                .build();
+        return new Payment(
+                112,
+                "ganesh",
+                458,
+                1000,
+                "done"
+        );
     }
 
-    @Override
-    public void login(String user, String pass) {
-        if(user.equalsIgnoreCase(user))
-        {
-            System.out.println("login user pass");
-        }
-    }
-
-    @Override
-    public void login(int phone, String pass) {
-
-    }
-    
 }
